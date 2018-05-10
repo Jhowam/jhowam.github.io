@@ -15,29 +15,41 @@
             animation-fill-mode: both;
          }
          
-         @-webkit-keyframes fadeInDown {
+         @-webkit-keyframes bounceInDown {
             0% {
                opacity: 0;
-               -webkit-transform: translateY(-20px);
+               -webkit-transform: translateY(-2000px);
             }
-            100% {
+            10% {
                opacity: 1;
+               -webkit-transform: translateY(30px);
+            }
+            40% {
+               -webkit-transform: translateY(-10px);
+            }
+            80% { 
                -webkit-transform: translateY(0);
             }
          }
          
-         @keyframes fadeInDown {
+         @keyframes bounceInDown {
             0% {
                opacity: 0;
-               transform: translateY(-20px);
+               transform: translateY(-2000px);
             }
-            100% {
+            10% {
                opacity: 1;
+               transform: translateY(30px);
+            }
+            40% {
+               transform: translateY(-10px);
+            }
+            80% {
                transform: translateY(0);
             }
          }
          
-         .fadeInDown {
-            -webkit-animation-name: fadeInDown;
-            animation-name: fadeInDown;
+         .bounceInDown {
+            -webkit-animation-name: bounceInDown;
+            animation-name: bounceInDown;
          }

@@ -11,19 +11,15 @@ body {
 @-webkit-keyframes colorchange {
  
      0%  {background: #F0FFFF;}
-    25%  {background: #F0F8FF;}
-    35%  {background: #6495ED;}
-    45%  {background: #3CB371;}
-    55%  {background: #F5F5F5;}
+    15%  {background: #F0F8FF;}
+    25%  {background: #6495ED;}
 }
  
  
 @keyframes colorchange {
      0%  {background: #F0FFFF;}
-    25%  {background: #F0F8FF;}
-    35%  {background: #6495ED;}
-    45%  {background: #3CB371;}
-    55%  {background: #F5F5F5;}
+    15%  {background: #F0F8FF;}
+    25%  {background: #6495ED;}
 }
 #myimage {
     width: 25px;
@@ -47,7 +43,7 @@ body {
     font-family: DejaVu Sans Mono, monospace;
     color: #000;
     color: rgba(0, 0, 0, 0.3);
-    font-size: 18px;
+    font-size: 20px;
 }
 hr.style { 
     border: 0;
@@ -81,7 +77,7 @@ ul {
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 10s;
+    animation-duration: 14s;
 }
 
 @keyframes fadeInOpacity {
@@ -103,7 +99,29 @@ ul {
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 14s;
+    animation-duration: 22s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+li {
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+}
+#fade-in4 {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 30s;
 }
 
 @keyframes fadeInOpacity {
