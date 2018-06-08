@@ -1,29 +1,17 @@
-#h1image {
-    border-radius: 50%;
-    height: 150px;
-    width: 160px;
-}
 body {
-	margin: 25px;
-    -webkit-animation: colorchange 60s infinite; 
-    animation: colorchange 60s infinite;
+    margin-top: 75px;
+    background-image: url("../../this/img/Jhowam.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
 }
-@-webkit-keyframes colorchange {
- 
-     0%  {background: #F0FFFF;}
-    25%  {background: #F0F8FF;}
-    50%  {background: #6495ED;}
-}
- 
- 
-@keyframes colorchange {
-     0%  {background: #F0FFFF;}
-    25%  {background: #F0F8FF;}
-    50%  {background: #6495ED;}
-}
+
 .image-container {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;   
     -webkit-animation-duration: 20s;
     animation-duration: 20s;
     -webkit-animation-fill-mode: both;
@@ -49,16 +37,10 @@ body {
   }
 }
 
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
-
 #myimage {
-    width: 25px;
-    height: 25px;
-    padding: 4px;
-    border-radius: 25px;
+    width: 2vw;
+    height: 2vw;
+    padding: 5px;
 }
 #myimage:hover {
     -ms-transform: scale(1.5);
@@ -66,48 +48,19 @@ body {
     transform: scale(1.5); 
 }
 
-hr.style { 
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    -webkit-animation-duration: 20s;
-    animation-duration: 20s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
 .me-container {
-    display: flex;
-    justify-content: center;
-    padding: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;   
+    padding: 55px;
     font-family: DejaVu Sans Mono, monospace;
-    color: #000;
-    color: rgba(0, 0, 0, 0.3);
-    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px 2px #FF851B, 0 0 25px #FF851B, 0 0 5px #FF851B;
+    font-size: 1.75vw;
 }
 
 .animate {
@@ -165,8 +118,8 @@ ul {
     list-style-type: none;
 }
 #logo {
-    height: 25px;
-    width: 25px;
+    height: 2vw;
+    width: 2vw;
 }
 #sticky {
     width: 100%;
