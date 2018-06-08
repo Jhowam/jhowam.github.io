@@ -10,8 +10,7 @@ body {
 
 .image-container {
     text-align: center;
-    vertical-align: middle;
-    line-height: 50px;   
+    vertical-align: middle;   
     -webkit-animation-duration: 20s;
     animation-duration: 20s;
     -webkit-animation-fill-mode: both;
@@ -52,18 +51,15 @@ body {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
-.me-container {
+
+.animate {
     text-align: center;
-    vertical-align: middle;
-    line-height: 35px;   
-    padding: 55px;
+    vertical-align: middle;  
+    padding: 45px;
     font-family: DejaVu Sans Mono, monospace;
     color: white;
     text-shadow: 1px 1px 2px #FF851B, 0 0 25px #FF851B, 0 0 5px #FF851B;
     font-size: 1.75vw;
-}
-
-.animate {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
@@ -112,7 +108,7 @@ body {
 }
 
 li {
-    padding: 10px;
+    padding: 20px;
 }
 ul {
     list-style-type: none;
@@ -122,16 +118,10 @@ ul {
     width: 2vw;
 }
 #sticky {
-    width: 100%;
-    padding: 0px;
-    padding-bottom: 0px;
     font-family: arial;
     font-weight: bold;
     font-size: 12px;
-    text-align: center;
-    position: fixed;   
-    bottom: 0;          
-    left: 0;
+    text-align: center; 
 }
 .flash {
     animation-name: flash;
